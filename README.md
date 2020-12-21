@@ -5,6 +5,8 @@
 ### TODO
 - [ ] Add instructions for deploying to Elastic beanstalk
 - [ ] Add instructions for testing locally
+- [ ] Add instructions for mounting persistent storage for apps
+- [ ] Add ui for users to upload apps to the shiny server
 
 
 ## Instructions
