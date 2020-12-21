@@ -1,10 +1,13 @@
-#Use this to deploy shiny server 'manually' via the Elastic Beanstalk UI
-##Created this as I encountered [this issue](https://github.com/aws/aws-elastic-beanstalk-cli/issues/53) deploying via ELB CLI
+# Use this to deploy shiny server 'manually' via the Elastic Beanstalk UI
 
-###TODO
+## Created this as I encountered [this issue](https://github.com/aws/aws-elastic-beanstalk-cli/issues/53) deploying via ELB CLI
+
+### TODO
 - [ ] Add instructions for deploying to Elastic beanstalk
 - [ ] Add instructions for testing locally
 
+
+## Instructions
 1. Create a new folder named **myapp** under the **apps** folder
     The new folder directory should look like:
     ```bash
