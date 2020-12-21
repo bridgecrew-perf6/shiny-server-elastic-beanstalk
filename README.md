@@ -46,7 +46,7 @@
      zip -r deployment.zip .
     ```
    
-5. The **deployment.zip** file is the file you will upload to elastic beanstalk
+5. The newly created **deployment.zip** file is the file you will upload to elastic beanstalk
 
 ### Elastic Beanstalk Deployment
 1. Navigate to the Elastic Beanstalk UI in the AWS console
