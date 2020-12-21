@@ -74,4 +74,4 @@
 
     Going to the url will open up the shiny server homepage
     
-    Add **apps/myapp/** to the end of the homepage url to view your app or the sample app with **apps/shiny-app/**
+    Add **/apps/myapp/** to the end of the homepage url to view your app or the sample app with **/apps/shiny-app/**
