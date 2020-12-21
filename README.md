@@ -1,7 +1,7 @@
-##Use this to deploy shiny server 'manually' via the Elastic Beanstalk UI
-####Created this as I encountered [this issue](https://github.com/aws/aws-elastic-beanstalk-cli/issues/53) deploying via ELB CLI
+#Use this to deploy shiny server 'manually' via the Elastic Beanstalk UI
+##Created this as I encountered [this issue](https://github.com/aws/aws-elastic-beanstalk-cli/issues/53) deploying via ELB CLI
 
-#####TODO
+###TODO
 - [ ] Add instructions for deploying to Elastic beanstalk
 - [ ] Add instructions for testing locally
 
