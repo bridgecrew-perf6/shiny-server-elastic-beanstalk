@@ -66,7 +66,7 @@
         3. Leave the populated values as default
     4. Under **Application code**:
         1. Select **Upload your code**
-        2. Enter a version; **1.0** (or whatever you want)
+        2. Enter a version: **1.0** (or whatever you want)
         3. Select **Local file**
         4. Click **Choose file** and upload your zipped deployment file that you created earlier: **deployment.zip**
 5. Click **Create Environment** \
