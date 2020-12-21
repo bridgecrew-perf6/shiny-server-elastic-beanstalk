@@ -8,6 +8,8 @@
 
 
 ## Instructions
+
+### Local Setup
 1. Create a new folder named **myapp** under the **apps** folder
     The new folder directory should look like:
     ```bash
@@ -30,13 +32,14 @@
    
 5. The **deployment.zip** file is the file you will upload to elastic beanstalk
 
-6. Navigate to teh Elastic Beanstalk UI in the AWS console
+### Elastic Beanstalk Deployment
+1. Navigate to the Elastic Beanstalk UI in the AWS console
 
-6. Click **Create a new Environment**
+2. Click **Create a new Environment**
 
-7. Select **Worker environment** and click **Select**
+3. Select **Worker environment** and click **Select**
 
-8. Fill in the required fields:
+4. Fill in the required fields:
     1. Application name: **shiny-server-1** (or whatever you want)
     2. Environment name: **shiny-server-env-1** (or whatever you want)
     3. Under **Platform**
@@ -48,10 +51,11 @@
         2. Enter a version; **1.0** (or whatever you want)
         3. Select **Local file**
         4. Click **Choose file** and upload your zipped deployment file that you created earlier: **deployment.zip**
-9. Click **Create Environment** \
+5. Click **Create Environment** \
 *This will begin the deployment and may take a few minutes to completer*
-10. Once the deployment has completed you will be presented with a url to the shiny server \
 
-Going to the url will open up the shiny server homepage\
+6. Once the deployment has completed you will be presented with a url to the shiny server
+
+Going to the url will open up the shiny server homepage
 
 Add **apps/myapp/** to the end of the homepage url to view your app or the sample app with **apps/shiny-app/**
