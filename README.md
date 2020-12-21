@@ -53,7 +53,7 @@
 
 2. Click **Create a new Environment**
 
-3. Select **Worker environment** and click **Select**
+3. Select **Web server environment** and click **Select**
 
 4. Fill in the required fields:
     1. Application name: **shiny-server-1** (or whatever you want)
