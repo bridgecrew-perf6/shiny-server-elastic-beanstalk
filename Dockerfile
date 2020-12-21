@@ -18,12 +18,8 @@ RUN R -e "install.packages(c('dplyr', 'pandas', 'shinySignals'))"
 
 COPY shiny-server.sh /usr/bin/shiny-server.sh
 
-COPY shiny-app/ /srv/shiny-server/
-
-COPY shiny-app /srv/shiny-server/hello
-
-# if you change your app name chnage it here
-COPY shiny-app /srv/shiny-server/shiny-app
+# COPY APP FILES
+COPY apps/ /srv/shiny-server/apps
 
 RUN chmod -R 755 /srv/shiny-server/
 
