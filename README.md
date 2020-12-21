@@ -52,10 +52,10 @@
         3. Select **Local file**
         4. Click **Choose file** and upload your zipped deployment file that you created earlier: **deployment.zip**
 5. Click **Create Environment** \
-*This will begin the deployment and may take a few minutes to completer*
+*This will begin the deployment and may take a few minutes to complete*
 
 6. Once the deployment has completed you will be presented with a url to the shiny server
 
-Going to the url will open up the shiny server homepage
-
-Add **apps/myapp/** to the end of the homepage url to view your app or the sample app with **apps/shiny-app/**
+    Going to the url will open up the shiny server homepage
+    
+    Add **apps/myapp/** to the end of the homepage url to view your app or the sample app with **apps/shiny-app/**
