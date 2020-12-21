@@ -3,7 +3,7 @@ Created this as I encountered [this issue](https://github.com/aws/aws-elastic-be
 
 1. Copy all your shiny app code + files into the 'shiny-app' folder
 
-2. Rename the 'shiny-app' folder to your app name - assuming new name is myapp
+2. Rename the 'shiny-app' folder to your app name - assuming new name is **myapp**
 
     The new folder directory should look like:
     ```bash
