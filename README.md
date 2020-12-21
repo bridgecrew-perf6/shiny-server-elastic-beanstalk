@@ -3,7 +3,7 @@
 ## Created this as I encountered [this issue](https://github.com/aws/aws-elastic-beanstalk-cli/issues/53) deploying via ELB CLI
 
 ### TODO
-- [**x**] Add instructions for deploying to Elastic beanstalk
+- [x] Add instructions for deploying to Elastic beanstalk
 - [ ] Add instructions for testing locally
 - [ ] Add instructions for mounting persistent storage for apps
 - [ ] Add ui for users to upload apps to the shiny server
