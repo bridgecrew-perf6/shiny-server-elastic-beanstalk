@@ -10,10 +10,23 @@
 ## Instructions
 
 ### Local Setup
-1. Create a new folder named **myapp** under the **apps** folder
+1. Clone this repo via the command line:
+    ```bash
+    git clone https://github.com/ranvirm/shiny-server-elastic-beanstalk.git
+    ```
+   
+2. Navigate into the cloned folder
+    ```bash
+   cd shiny-server-elastic-beanstalk/
+   ```
+
+3. Create a new folder named **myapp** under the **apps** folder
+    ```bash
+   mkdir ./apps/myapp 
+   ```
     The new folder directory should look like:
     ```bash
-    shiny-server-app/--
+    shiny-server-elastic-beanstalk/--
         /apps
             /hello-app
             /myapp
@@ -23,11 +36,14 @@
         .dockerignore
         .gitignore
     ```
-2. Copy all your shiny app code + files into the **myapp** folder
-
-3. In the root folder (shiny-server-app) run the below to create a zip file:
+4. Copy all your shiny app code + files into the **myapp** folder
     ```bash
-     zip -r deployment.zip .   
+    cp -R ..path_to_your_app/* ./apps/myapp
+   ```
+
+5. In the root folder (**shiny-server-elastic-beanstalk/**) run the below to create a zip file:
+    ```bash
+     zip -r deployment.zip .
     ```
    
 5. The **deployment.zip** file is the file you will upload to elastic beanstalk
