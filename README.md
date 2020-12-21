@@ -1,3 +1,6 @@
+Use this to deploy shiny server 'manually' via the Elastic Beanstalk UI
+Created this as I encountered [this issue](https://github.com/aws/aws-elastic-beanstalk-cli/issues/53) deploying via ELB CLI
+
 1. Copy all your shiny app code + files into the 'shiny-app' folder
 
 2. Rename the 'shiny-app' folder to your app name - assuming new name is bond-sales
