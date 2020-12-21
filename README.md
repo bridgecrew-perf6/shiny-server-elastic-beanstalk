@@ -26,7 +26,7 @@
    ```
     The new folder directory should look like:
     ```bash
-    shiny-server-elastic-beanstalk/--
+    shiny-server-elastic-beanstalk/
         /apps
             /hello-app
             /myapp
