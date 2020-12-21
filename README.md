@@ -8,7 +8,6 @@ Created this as I encountered [this issue](https://github.com/aws/aws-elastic-be
     The new folder directory should look like:
     ```bash
     shiny-server-app/--
-        /hello-app
         /myapp
         Dockerfile
         Dockerrun.aws.json

@@ -20,7 +20,7 @@ COPY shiny-server.sh /usr/bin/shiny-server.sh
 
 COPY shiny-app/ /srv/shiny-server/
 
-COPY hello-app /srv/shiny-server/hello
+COPY shiny-app /srv/shiny-server/hello
 
 # if you change your app name chnage it here
 COPY shiny-app /srv/shiny-server/shiny-app
