@@ -43,12 +43,17 @@
     cp -R ..path_to_your_app/* ./apps/myapp
    ```
 
-5. In the root folder (**shiny-server-elastic-beanstalk/**) run the below to create a zip file:
+5. Add the R packages your app uses. Open **Dockerfile** and add your packages to the list on **line 17**
+    ```bash
+    RUN R -e "install.packages(c('dplyr', 'pandas', 'shinySignals'))"
+   ```
+
+6. In the root folder (**shiny-server-elastic-beanstalk/**) run the below to create a zip file:
     ```bash
      zip -r deployment.zip .
     ```
    
-5. The newly created **deployment.zip** file is the file you will upload to elastic beanstalk
+7. The newly created **deployment.zip** file is the file you will upload to elastic beanstalk
 
 ### Elastic Beanstalk Deployment
 1. Navigate to the Elastic Beanstalk UI in the AWS console
